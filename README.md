@@ -1,6 +1,6 @@
 # Integrated EMG Device
 
-- Designed, simulated, and validated an EMG signal-conditioning circuit in LTspice using a virtual ground, precision rectifier, and RC low-pass filter to extract the envelope from the MyoWare RAW output signal.
+- Designed, simulated, and validated an EMG signal-conditioning circuit in LTspice using a virtual ground, full-wave precision rectifier, and RC low-pass filter to extract the envelope from the MyoWare RAW output signal.
   - Signal chain: MyoWare RAW output → half-wave precision rectifier (centered at 1.58 V) → voltage adder → RC low-pass filter
 - Built and tested the analog front end with an Arduino, breadboard, oscilloscope, and function generator, and integrated it with a MyoWare sensor for EMG acquisition.
 - Developed Arduino firmware for real-time EMG acquisition, iEMG calculation, and configurable threshold-based alerts for monitoring forearm muscle activity.
