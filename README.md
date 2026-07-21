@@ -13,7 +13,7 @@ Built and tested the analog front end with an Arduino, breadboard, oscilloscope,
 
 Developed Arduino firmware for real-time EMG acquisition, iEMG calculation, and configurable threshold-based alerts for monitoring forearm muscle activity. 
 
-<p align="center" width="100%">Integrated EMG (with low threshold for demonstration purposes) and buzzer alert to help prevent forearm overuse
+<p align="center" width="100%">Integrated EMG + buzzer alert to help prevent forearm overuse (threshold is set low for demonstration purposes, in practice would only want an alert after 15-60 minutes of use)
 <video src="https://github.com/user-attachments/assets/263daff6-9c5d-4357-b7fb-59068fd469ef" width="80%" controls title="iEMG"></video>
 </p>
 <p align="center" width="100%">Graph of RAW signal, as well as the rectified and smoothed signals
